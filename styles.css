@@ -1,0 +1,75 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 8px;
+}
+
+#progressBar {
+  height: 20px;
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#progress {
+  height: 100%;
+  width: 33%;
+  background-color: #4caf50;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+.step {
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: calc(100% - 24px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #5c67f2;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a54e1;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:last-child {
+  margin-right: 0;
+}
